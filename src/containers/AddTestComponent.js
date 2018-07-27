@@ -4,7 +4,7 @@ import {addTestComponent, updateTestComponent} from '../actions'
 
 const AddTestComponent = ({ dispatch }) => {
   let input = null;
-  let numItems = 10000;
+  let numItems = 500;
   let updateDelta = 33;
   let ids = [];
   let items = [];
@@ -79,23 +79,6 @@ const AddTestComponent = ({ dispatch }) => {
         <h2>Reactive Robot - testing frontend data solutions for react</h2>
         <h3>redux</h3>
       </div>
-    </div>
-  )
-  return (
-    <div>
-      <form onSubmit={e => {
-        e.preventDefault()
-        if (!input.value.trim()) {
-          return
-        }
-        dispatch(addTestComponent(input.value,0,0))
-        input.value = ''
-      }}>
-        <input ref={node => input = node} />
-        <button type="submit">
-          Add TestComponent
-        </button>
-      </form>
     </div>
   )
 }

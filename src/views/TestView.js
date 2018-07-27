@@ -8,6 +8,7 @@ export default class TestView extends React.Component{
   }
 
   render(){
+    // console.log('TestView::render()');
     return (<ul className='componentContainer'>
       {this.props.testComponents.map(testComponent =>
         <TestComponent

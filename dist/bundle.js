@@ -698,7 +698,7 @@ var isArrayLike_1 = __webpack_require__(84);
 var isPromise_1 = __webpack_require__(85);
 var isObject_1 = __webpack_require__(80);
 var Observable_1 = __webpack_require__(0);
-var iterator_1 = __webpack_require__(22);
+var iterator_1 = __webpack_require__(21);
 var InnerSubscriber_1 = __webpack_require__(241);
 var observable_1 = __webpack_require__(38);
 function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
@@ -778,8 +778,8 @@ exports.subscribeToResult = subscribeToResult;
 
 "use strict";
 
-var AsyncAction_1 = __webpack_require__(27);
-var AsyncScheduler_1 = __webpack_require__(28);
+var AsyncAction_1 = __webpack_require__(26);
+var AsyncScheduler_1 = __webpack_require__(27);
 /**
  *
  * Async Scheduler
@@ -1993,24 +1993,6 @@ module.exports = g;
 
 /***/ }),
 /* 21 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(206);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
-/* unused harmony reexport createProvider */
-/* unused harmony reexport connectAdvanced */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
-
-
-
-
-
-
-/***/ }),
-/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2054,7 +2036,7 @@ exports.$$iterator = exports.iterator;
 //# sourceMappingURL=iterator.js.map
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2171,7 +2153,7 @@ exports.concat = concat;
 //# sourceMappingURL=concat.js.map
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2304,7 +2286,7 @@ exports.Notification = Notification;
 //# sourceMappingURL=Notification.js.map
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2483,7 +2465,7 @@ exports.MergeMapSubscriber = MergeMapSubscriber;
 //# sourceMappingURL=mergeMap.js.map
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2501,7 +2483,7 @@ exports.isNumeric = isNumeric;
 //# sourceMappingURL=isNumeric.js.map
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2649,7 +2631,7 @@ exports.AsyncAction = AsyncAction;
 //# sourceMappingURL=AsyncAction.js.map
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2706,7 +2688,7 @@ exports.AsyncScheduler = AsyncScheduler;
 //# sourceMappingURL=AsyncScheduler.js.map
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2801,7 +2783,7 @@ var MapSubscriber = (function (_super) {
 //# sourceMappingURL=map.js.map
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2835,7 +2817,7 @@ exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
 //# sourceMappingURL=ArgumentOutOfRangeError.js.map
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2910,7 +2892,7 @@ exports.reduce = reduce;
 //# sourceMappingURL=reduce.js.map
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2934,7 +2916,7 @@ module.exports = emptyObject;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3003,7 +2985,7 @@ module.exports = warning;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(5)))
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3606,6 +3588,24 @@ if (process.env.NODE_ENV !== 'production' && typeof isCrushed.name === 'string' 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)))
 
 /***/ }),
+/* 34 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(206);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
+/* unused harmony reexport createProvider */
+/* unused harmony reexport connectAdvanced */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
+
+
+
+
+
+
+/***/ }),
 /* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3981,7 +3981,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(1);
-var Notification_1 = __webpack_require__(24);
+var Notification_1 = __webpack_require__(23);
 /**
  *
  * Re-emits all notifications from source Observable with specified scheduler.
@@ -4096,7 +4096,7 @@ exports.ObserveOnMessage = ObserveOnMessage;
 
 "use strict";
 
-var mergeMap_1 = __webpack_require__(25);
+var mergeMap_1 = __webpack_require__(24);
 var identity_1 = __webpack_require__(90);
 /**
  * Converts a higher-order Observable into a first-order Observable which
@@ -4273,7 +4273,7 @@ var isArray_1 = __webpack_require__(13);
 var Subscriber_1 = __webpack_require__(1);
 var OuterSubscriber_1 = __webpack_require__(2);
 var subscribeToResult_1 = __webpack_require__(3);
-var iterator_1 = __webpack_require__(22);
+var iterator_1 = __webpack_require__(21);
 /* tslint:enable:max-line-length */
 /**
  * @param observables
@@ -4850,7 +4850,7 @@ var ThrottleSubscriber = (function (_super) {
 
 if (process.env.NODE_ENV !== 'production') {
   var invariant = __webpack_require__(16);
-  var warning = __webpack_require__(33);
+  var warning = __webpack_require__(32);
   var ReactPropTypesSecret = __webpack_require__(51);
   var loggedTypeFailures = {};
 }
@@ -5394,7 +5394,7 @@ var OnErrorResumeNextSubscriber = (function (_super) {
 
 "use strict";
 
-var mergeMap_1 = __webpack_require__(25);
+var mergeMap_1 = __webpack_require__(24);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -6127,7 +6127,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(1);
-var ArgumentOutOfRangeError_1 = __webpack_require__(30);
+var ArgumentOutOfRangeError_1 = __webpack_require__(29);
 var EmptyObservable_1 = __webpack_require__(15);
 /**
  * Emits only the last `count` values emitted by the source Observable.
@@ -6476,7 +6476,7 @@ var SwitchMapSubscriber = (function (_super) {
 "use strict";
 
 var async_1 = __webpack_require__(4);
-var map_1 = __webpack_require__(29);
+var map_1 = __webpack_require__(28);
 /**
  * @param scheduler
  * @return {Observable<Timestamp<any>>|WebSocketSubject<T>|Observable<T>}
@@ -7295,7 +7295,7 @@ var PromiseObservable_1 = __webpack_require__(89);
 var IteratorObservable_1 = __webpack_require__(243);
 var ArrayObservable_1 = __webpack_require__(14);
 var ArrayLikeObservable_1 = __webpack_require__(244);
-var iterator_1 = __webpack_require__(22);
+var iterator_1 = __webpack_require__(21);
 var Observable_1 = __webpack_require__(0);
 var observeOn_1 = __webpack_require__(42);
 var observable_1 = __webpack_require__(38);
@@ -7570,7 +7570,7 @@ var tryCatch_1 = __webpack_require__(9);
 var errorObject_1 = __webpack_require__(8);
 var Observable_1 = __webpack_require__(0);
 var Subscriber_1 = __webpack_require__(1);
-var map_1 = __webpack_require__(29);
+var map_1 = __webpack_require__(28);
 function getCORSRequest() {
     if (root_1.root.XMLHttpRequest) {
         return new root_1.root.XMLHttpRequest();
@@ -8928,8 +8928,8 @@ exports.combineAll = combineAll;
 
 "use strict";
 
-var concat_1 = __webpack_require__(23);
-var concat_2 = __webpack_require__(23);
+var concat_1 = __webpack_require__(22);
+var concat_2 = __webpack_require__(22);
 exports.concatStatic = concat_2.concat;
 /* tslint:enable:max-line-length */
 /**
@@ -9530,7 +9530,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var async_1 = __webpack_require__(4);
 var isDate_1 = __webpack_require__(45);
 var Subscriber_1 = __webpack_require__(1);
-var Notification_1 = __webpack_require__(24);
+var Notification_1 = __webpack_require__(23);
 /**
  * Delays the emission of items from the source Observable by a given timeout or
  * until a given Date.
@@ -10581,7 +10581,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(1);
-var ArgumentOutOfRangeError_1 = __webpack_require__(30);
+var ArgumentOutOfRangeError_1 = __webpack_require__(29);
 /**
  * Emits the single value at the specified `index` in a sequence of emissions
  * from the source Observable.
@@ -11658,7 +11658,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(1);
-var Notification_1 = __webpack_require__(24);
+var Notification_1 = __webpack_require__(23);
 /**
  * Represents all of the notifications from the source Observable as `next`
  * emissions marked with their original types within {@link Notification}
@@ -11750,7 +11750,7 @@ var MaterializeSubscriber = (function (_super) {
 
 "use strict";
 
-var reduce_1 = __webpack_require__(31);
+var reduce_1 = __webpack_require__(30);
 /**
  * The Max operator operates on an Observable that emits numbers (or items that can be compared with a provided function),
  * and when source Observable completes it emits a single item: the item with the largest value.
@@ -12159,7 +12159,7 @@ exports.MergeScanSubscriber = MergeScanSubscriber;
 
 "use strict";
 
-var reduce_1 = __webpack_require__(31);
+var reduce_1 = __webpack_require__(30);
 /**
  * The Min operator operates on an Observable that emits numbers (or items that can be compared with a provided function),
  * and when source Observable completes it emits a single item: the item with the smallest value.
@@ -12524,7 +12524,7 @@ exports.partition = partition;
 
 "use strict";
 
-var map_1 = __webpack_require__(29);
+var map_1 = __webpack_require__(28);
 /**
  * Maps each source value (an object) to its specified nested property.
  *
@@ -13735,7 +13735,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(1);
-var ArgumentOutOfRangeError_1 = __webpack_require__(30);
+var ArgumentOutOfRangeError_1 = __webpack_require__(29);
 /**
  * Skip the last `count` values emitted by the source Observable.
  *
@@ -13980,7 +13980,7 @@ var SkipWhileSubscriber = (function (_super) {
 var ArrayObservable_1 = __webpack_require__(14);
 var ScalarObservable_1 = __webpack_require__(56);
 var EmptyObservable_1 = __webpack_require__(15);
-var concat_1 = __webpack_require__(23);
+var concat_1 = __webpack_require__(22);
 var isScheduler_1 = __webpack_require__(12);
 /* tslint:enable:max-line-length */
 /**
@@ -14297,7 +14297,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(1);
-var ArgumentOutOfRangeError_1 = __webpack_require__(30);
+var ArgumentOutOfRangeError_1 = __webpack_require__(29);
 var EmptyObservable_1 = __webpack_require__(15);
 /**
  * Emits only the first `count` values emitted by the source Observable.
@@ -15082,7 +15082,7 @@ var TimeoutWithSubscriber = (function (_super) {
 
 "use strict";
 
-var reduce_1 = __webpack_require__(31);
+var reduce_1 = __webpack_require__(30);
 function toArrayReducer(arr, item, index) {
     if (index === 0) {
         return [item];
@@ -15367,7 +15367,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Subject_1 = __webpack_require__(7);
 var async_1 = __webpack_require__(4);
 var Subscriber_1 = __webpack_require__(1);
-var isNumeric_1 = __webpack_require__(26);
+var isNumeric_1 = __webpack_require__(25);
 var isScheduler_1 = __webpack_require__(12);
 function windowTime(windowTimeSpan) {
     var scheduler = async_1.async;
@@ -16066,8 +16066,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(27);
-var AsyncScheduler_1 = __webpack_require__(28);
+var AsyncAction_1 = __webpack_require__(26);
+var AsyncScheduler_1 = __webpack_require__(27);
 var VirtualTimeScheduler = (function (_super) {
     __extends(VirtualTimeScheduler, _super);
     function VirtualTimeScheduler(SchedulerAction, maxFrames) {
@@ -16689,10 +16689,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redux__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_redux__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_redux__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_redux__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_App__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__reducers__ = __webpack_require__(532);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__reducers__ = __webpack_require__(531);
 
 
 
@@ -16722,7 +16722,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["render"])(__WEBPACK_IMPORTED_MOD
  * LICENSE file in the root directory of this source tree.
  */
 
-var m=__webpack_require__(19),n=__webpack_require__(16),p=__webpack_require__(32),q=__webpack_require__(17),r="function"===typeof Symbol&&Symbol["for"],t=r?Symbol["for"]("react.element"):60103,u=r?Symbol["for"]("react.portal"):60106,v=r?Symbol["for"]("react.fragment"):60107,w=r?Symbol["for"]("react.strict_mode"):60108,x=r?Symbol["for"]("react.provider"):60109,y=r?Symbol["for"]("react.context"):60110,z=r?Symbol["for"]("react.async_mode"):60111,A=r?Symbol["for"]("react.forward_ref"):
+var m=__webpack_require__(19),n=__webpack_require__(16),p=__webpack_require__(31),q=__webpack_require__(17),r="function"===typeof Symbol&&Symbol["for"],t=r?Symbol["for"]("react.element"):60103,u=r?Symbol["for"]("react.portal"):60106,v=r?Symbol["for"]("react.fragment"):60107,w=r?Symbol["for"]("react.strict_mode"):60108,x=r?Symbol["for"]("react.provider"):60109,y=r?Symbol["for"]("react.context"):60110,z=r?Symbol["for"]("react.async_mode"):60111,A=r?Symbol["for"]("react.forward_ref"):
 60112,B="function"===typeof Symbol&&Symbol.iterator;function C(a){for(var b=arguments.length-1,e="http://reactjs.org/docs/error-decoder.html?invariant\x3d"+a,c=0;c<b;c++)e+="\x26args[]\x3d"+encodeURIComponent(arguments[c+1]);n(!1,"Minified React error #"+a+"; visit %s for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ",e)}var D={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};
 function E(a,b,e){this.props=a;this.context=b;this.refs=p;this.updater=e||D}E.prototype.isReactComponent={};E.prototype.setState=function(a,b){"object"!==typeof a&&"function"!==typeof a&&null!=a?C("85"):void 0;this.updater.enqueueSetState(this,a,b,"setState")};E.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,"forceUpdate")};function F(){}F.prototype=E.prototype;function G(a,b,e){this.props=a;this.context=b;this.refs=p;this.updater=e||D}var H=G.prototype=new F;
 H.constructor=G;m(H,E.prototype);H.isPureReactComponent=!0;var I={current:null},J=Object.prototype.hasOwnProperty,K={key:!0,ref:!0,__self:!0,__source:!0};
@@ -16761,8 +16761,8 @@ if (process.env.NODE_ENV !== "production") {
 
 var _assign = __webpack_require__(19);
 var invariant = __webpack_require__(16);
-var emptyObject = __webpack_require__(32);
-var warning = __webpack_require__(33);
+var emptyObject = __webpack_require__(31);
+var warning = __webpack_require__(32);
 var emptyFunction = __webpack_require__(17);
 var checkPropTypes = __webpack_require__(50);
 
@@ -18222,7 +18222,7 @@ if (process.env.NODE_ENV === 'production') {
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var ba=__webpack_require__(16),ea=__webpack_require__(11),m=__webpack_require__(71),A=__webpack_require__(19),C=__webpack_require__(17),fa=__webpack_require__(72),ha=__webpack_require__(73),ja=__webpack_require__(74),ka=__webpack_require__(32);
+var ba=__webpack_require__(16),ea=__webpack_require__(11),m=__webpack_require__(71),A=__webpack_require__(19),C=__webpack_require__(17),fa=__webpack_require__(72),ha=__webpack_require__(73),ja=__webpack_require__(74),ka=__webpack_require__(31);
 function D(a){for(var b=arguments.length-1,c="http://reactjs.org/docs/error-decoder.html?invariant\x3d"+a,d=0;d<b;d++)c+="\x26args[]\x3d"+encodeURIComponent(arguments[d+1]);ba(!1,"Minified React error #"+a+"; visit %s for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ",c)}ea?void 0:D("227");
 function ma(a,b,c,d,e,f,h,g,k){this._hasCaughtError=!1;this._caughtError=null;var v=Array.prototype.slice.call(arguments,3);try{b.apply(c,v)}catch(l){this._caughtError=l,this._hasCaughtError=!0}}
 var E={_caughtError:null,_hasCaughtError:!1,_rethrowError:null,_hasRethrowError:!1,invokeGuardedCallback:function(a,b,c,d,e,f,h,g,k){ma.apply(E,arguments)},invokeGuardedCallbackAndCatchFirstError:function(a,b,c,d,e,f,h,g,k){E.invokeGuardedCallback.apply(this,arguments);if(E.hasCaughtError()){var v=E.clearCaughtError();E._hasRethrowError||(E._hasRethrowError=!0,E._rethrowError=v)}},rethrowCaughtError:function(){return na.apply(E,arguments)},hasCaughtError:function(){return E._hasCaughtError},clearCaughtError:function(){if(E._hasCaughtError){var a=
@@ -18538,7 +18538,7 @@ if (process.env.NODE_ENV !== "production") {
 
 var invariant = __webpack_require__(16);
 var React = __webpack_require__(11);
-var warning = __webpack_require__(33);
+var warning = __webpack_require__(32);
 var ExecutionEnvironment = __webpack_require__(71);
 var _assign = __webpack_require__(19);
 var emptyFunction = __webpack_require__(17);
@@ -18546,7 +18546,7 @@ var checkPropTypes = __webpack_require__(50);
 var getActiveElement = __webpack_require__(72);
 var shallowEqual = __webpack_require__(73);
 var containsNode = __webpack_require__(74);
-var emptyObject = __webpack_require__(32);
+var emptyObject = __webpack_require__(31);
 var hyphenateStyleName = __webpack_require__(193);
 var camelizeStyleName = __webpack_require__(195);
 
@@ -35517,7 +35517,7 @@ function createProvider() {
 
 var emptyFunction = __webpack_require__(17);
 var invariant = __webpack_require__(16);
-var warning = __webpack_require__(33);
+var warning = __webpack_require__(32);
 var assign = __webpack_require__(19);
 
 var ReactPropTypesSecret = __webpack_require__(51);
@@ -36511,7 +36511,7 @@ function shallowEqual(objA, objB) {
 /* unused harmony export whenMapDispatchToPropsIsFunction */
 /* unused harmony export whenMapDispatchToPropsIsMissing */
 /* unused harmony export whenMapDispatchToPropsIsObject */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__wrapMapToProps__ = __webpack_require__(77);
 
 
@@ -37052,19 +37052,18 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_redux__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer__ = __webpack_require__(223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__containers_AddTestComponent__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__containers_VisibleTestView__ = __webpack_require__(227);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__reducers_testComponents__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__AppStore__ = __webpack_require__(531);
 
 
 
 
 
 
-
+//import AppStore from '../AppStore';
 console.log('creating AppStore');
 const store = Object(__WEBPACK_IMPORTED_MODULE_1_redux__["c" /* createStore */])(__WEBPACK_IMPORTED_MODULE_5__reducers_testComponents__["a" /* default */]);
 
@@ -37072,7 +37071,7 @@ const unsubscribe = store.subscribe(() => {
   console.log('AppStore::==>store.state:', store.getState());
 });
 console.log('components/App::initial state of the store:', store.getState());
-const appStore = new __WEBPACK_IMPORTED_MODULE_6__AppStore__["a" /* default */](store);
+// const appStore = new AppStore(store);
 const App = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
   'div',
   null,
@@ -37127,7 +37126,7 @@ const Footer = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_redux__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_redux__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__actions__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Link__ = __webpack_require__(225);
 
@@ -37183,7 +37182,7 @@ Link.propTypes = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__actions__ = __webpack_require__(35);
 
 
@@ -37191,7 +37190,7 @@ Link.propTypes = {
 
 const AddTestComponent = ({ dispatch }) => {
   let input = null;
-  let numItems = 10000;
+  let numItems = 500;
   let updateDelta = 33;
   let ids = [];
   let items = [];
@@ -37280,27 +37279,6 @@ const AddTestComponent = ({ dispatch }) => {
       )
     )
   );
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'div',
-    null,
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'form',
-      { onSubmit: e => {
-          e.preventDefault();
-          if (!input.value.trim()) {
-            return;
-          }
-          dispatch(Object(__WEBPACK_IMPORTED_MODULE_2__actions__["b" /* addTestComponent */])(input.value, 0, 0));
-          input.value = '';
-        } },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { ref: node => input = node }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'button',
-        { type: 'submit' },
-        'Add TestComponent'
-      )
-    )
-  );
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_1_react_redux__["b" /* connect */])()(AddTestComponent));
@@ -37310,7 +37288,7 @@ const AddTestComponent = ({ dispatch }) => {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_redux__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_redux__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__actions__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_TestView__ = __webpack_require__(228);
 
@@ -37362,6 +37340,7 @@ let TestView = class TestView extends __WEBPACK_IMPORTED_MODULE_0_react___defaul
   }
 
   render() {
+    // console.log('TestView::render()');
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'ul',
       { className: 'componentContainer' },
@@ -37390,52 +37369,53 @@ __webpack_require__(526);
 
 let TestComponent = class TestComponent extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
-    constructor() {
-        super();
-        this.state = { updated: false, valueA: 0, valueB: 0, status: 'ok' };
-    }
+  constructor() {
+    super();
+    this.state = { updated: false, valueA: 0, valueB: 0, status: 'ok' };
+  }
 
-    componentWillReceiveProps(nextProps) {
-        if (nextProps.valueA !== this.state.valueA || nextProps.valueB !== this.state.valueB) {
-            this.setState({ updated: true, valueA: nextProps.valueA, valueB: nextProps.valueB, status: nextProps.status, timestamp: nextProps.timestamp });
-            setTimeout(() => {
-                this.setState({ updated: false });
-            }, 500);
-        }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.valueA !== this.state.valueA || nextProps.valueB !== this.state.valueB) {
+      this.setState({ updated: true, valueA: nextProps.valueA, valueB: nextProps.valueB, status: nextProps.status, timestamp: nextProps.timestamp });
+      setTimeout(() => {
+        this.setState({ updated: false });
+      }, 500);
     }
+  }
 
-    componentDidMount() {
-        this.setState({ id: this.props.id, valueA: this.props.valueA, valueB: this.props.valueB, status: this.props.status });
-    }
+  componentDidMount() {
+    this.setState({ id: this.props.id, valueA: this.props.valueA, valueB: this.props.valueB, status: this.props.status });
+  }
 
-    render() {
-        let combinedClassName = '';
-        if (this.state.updated) {
-            if (this.state.status === 'error') {
-                combinedClassName = 'testComponent backgroundRed';
-            } else if (this.state.status === 'warning') {
-                combinedClassName = 'testComponent backgroundYellow';
-            } else if (this.state.status === 'info') {
-                combinedClassName = 'testComponent backgroundGreen';
-            }
-        } else {
-            combinedClassName = 'testComponent backgroundBlue';
-        }
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            { className: combinedClassName },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                null,
-                'valueA:' + this.state.valueA
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                null,
-                'valueB:' + this.state.valueB
-            )
-        );
+  render() {
+    // console.log('TestComponent::render()');
+    let combinedClassName = '';
+    if (this.state.updated) {
+      if (this.state.status === 'error') {
+        combinedClassName = 'testComponent backgroundRed';
+      } else if (this.state.status === 'warning') {
+        combinedClassName = 'testComponent backgroundYellow';
+      } else if (this.state.status === 'info') {
+        combinedClassName = 'testComponent backgroundGreen';
+      }
+    } else {
+      combinedClassName = 'testComponent backgroundBlue';
     }
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: combinedClassName },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        null,
+        'valueA:' + this.state.valueA
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'span',
+        null,
+        'valueB:' + this.state.valueB
+      )
+    );
+  }
 };
 
 
@@ -37716,11 +37696,11 @@ var BehaviorSubject_1 = __webpack_require__(138);
 exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
 var ConnectableObservable_1 = __webpack_require__(132);
 exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
-var Notification_1 = __webpack_require__(24);
+var Notification_1 = __webpack_require__(23);
 exports.Notification = Notification_1.Notification;
 var EmptyError_1 = __webpack_require__(48);
 exports.EmptyError = EmptyError_1.EmptyError;
-var ArgumentOutOfRangeError_1 = __webpack_require__(30);
+var ArgumentOutOfRangeError_1 = __webpack_require__(29);
 exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError_1.ArgumentOutOfRangeError;
 var ObjectUnsubscribedError_1 = __webpack_require__(39);
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
@@ -37747,7 +37727,7 @@ var async_1 = __webpack_require__(4);
 var queue_1 = __webpack_require__(93);
 var animationFrame_1 = __webpack_require__(521);
 var rxSubscriber_1 = __webpack_require__(37);
-var iterator_1 = __webpack_require__(22);
+var iterator_1 = __webpack_require__(21);
 var observable_1 = __webpack_require__(38);
 var _operators = __webpack_require__(525);
 exports.operators = _operators;
@@ -38602,7 +38582,7 @@ exports.InnerSubscriber = InnerSubscriber;
 "use strict";
 
 var Observable_1 = __webpack_require__(0);
-var concat_1 = __webpack_require__(23);
+var concat_1 = __webpack_require__(22);
 Observable_1.Observable.concat = concat_1.concat;
 //# sourceMappingURL=concat.js.map
 
@@ -38619,7 +38599,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var root_1 = __webpack_require__(10);
 var Observable_1 = __webpack_require__(0);
-var iterator_1 = __webpack_require__(22);
+var iterator_1 = __webpack_require__(21);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -39924,7 +39904,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(26);
+var isNumeric_1 = __webpack_require__(25);
 var Observable_1 = __webpack_require__(0);
 var async_1 = __webpack_require__(4);
 /**
@@ -40707,7 +40687,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(26);
+var isNumeric_1 = __webpack_require__(25);
 var Observable_1 = __webpack_require__(0);
 var async_1 = __webpack_require__(4);
 var isScheduler_1 = __webpack_require__(12);
@@ -41139,7 +41119,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(27);
+var AsyncAction_1 = __webpack_require__(26);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -41194,7 +41174,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(28);
+var AsyncScheduler_1 = __webpack_require__(27);
 var QueueScheduler = (function (_super) {
     __extends(QueueScheduler, _super);
     function QueueScheduler() {
@@ -41800,7 +41780,7 @@ Observable_1.Observable.prototype.concat = concat_1.concat;
 "use strict";
 
 var concat_1 = __webpack_require__(101);
-var concat_2 = __webpack_require__(23);
+var concat_2 = __webpack_require__(22);
 exports.concatStatic = concat_2.concat;
 /* tslint:enable:max-line-length */
 /**
@@ -43962,7 +43942,7 @@ Observable_1.Observable.prototype.map = map_1.map;
 
 "use strict";
 
-var map_1 = __webpack_require__(29);
+var map_1 = __webpack_require__(28);
 /**
  * Applies a given `project` function to each value emitted by the source
  * Observable, and emits the resulting values as an Observable.
@@ -44339,7 +44319,7 @@ Observable_1.Observable.prototype.flatMap = mergeMap_1.mergeMap;
 
 "use strict";
 
-var mergeMap_1 = __webpack_require__(25);
+var mergeMap_1 = __webpack_require__(24);
 /* tslint:enable:max-line-length */
 /**
  * Projects each source value to an Observable which is merged in the output
@@ -45251,7 +45231,7 @@ Observable_1.Observable.prototype.reduce = reduce_1.reduce;
 
 "use strict";
 
-var reduce_1 = __webpack_require__(31);
+var reduce_1 = __webpack_require__(30);
 /* tslint:enable:max-line-length */
 /**
  * Applies an accumulator function over the source Observable, and returns the
@@ -46128,7 +46108,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(0);
 var asap_1 = __webpack_require__(157);
-var isNumeric_1 = __webpack_require__(26);
+var isNumeric_1 = __webpack_require__(25);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -46184,7 +46164,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Immediate_1 = __webpack_require__(471);
-var AsyncAction_1 = __webpack_require__(27);
+var AsyncAction_1 = __webpack_require__(26);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -46653,7 +46633,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(28);
+var AsyncScheduler_1 = __webpack_require__(27);
 var AsapScheduler = (function (_super) {
     __extends(AsapScheduler, _super);
     function AsapScheduler() {
@@ -47671,7 +47651,7 @@ Observable_1.Observable.prototype.windowTime = windowTime_1.windowTime;
 "use strict";
 
 var async_1 = __webpack_require__(4);
-var isNumeric_1 = __webpack_require__(26);
+var isNumeric_1 = __webpack_require__(25);
 var isScheduler_1 = __webpack_require__(12);
 var windowTime_1 = __webpack_require__(173);
 function windowTime(windowTimeSpan) {
@@ -47969,7 +47949,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(0);
-var Notification_1 = __webpack_require__(24);
+var Notification_1 = __webpack_require__(23);
 var ColdObservable_1 = __webpack_require__(519);
 var HotObservable_1 = __webpack_require__(520);
 var SubscriptionLog_1 = __webpack_require__(179);
@@ -48344,7 +48324,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(27);
+var AsyncAction_1 = __webpack_require__(26);
 var AnimationFrame_1 = __webpack_require__(523);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -48445,7 +48425,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(28);
+var AsyncScheduler_1 = __webpack_require__(27);
 var AnimationFrameScheduler = (function (_super) {
     __extends(AnimationFrameScheduler, _super);
     function AnimationFrameScheduler() {
@@ -48559,7 +48539,7 @@ var isEmpty_1 = __webpack_require__(121);
 exports.isEmpty = isEmpty_1.isEmpty;
 var last_1 = __webpack_require__(123);
 exports.last = last_1.last;
-var map_1 = __webpack_require__(29);
+var map_1 = __webpack_require__(28);
 exports.map = map_1.map;
 var mapTo_1 = __webpack_require__(125);
 exports.mapTo = mapTo_1.mapTo;
@@ -48571,9 +48551,9 @@ var merge_1 = __webpack_require__(128);
 exports.merge = merge_1.merge;
 var mergeAll_1 = __webpack_require__(43);
 exports.mergeAll = mergeAll_1.mergeAll;
-var mergeMap_1 = __webpack_require__(25);
+var mergeMap_1 = __webpack_require__(24);
 exports.mergeMap = mergeMap_1.mergeMap;
-var mergeMap_2 = __webpack_require__(25);
+var mergeMap_2 = __webpack_require__(24);
 exports.flatMap = mergeMap_2.mergeMap;
 var mergeMapTo_1 = __webpack_require__(129);
 exports.mergeMapTo = mergeMapTo_1.mergeMapTo;
@@ -48603,7 +48583,7 @@ var publishReplay_1 = __webpack_require__(139);
 exports.publishReplay = publishReplay_1.publishReplay;
 var race_1 = __webpack_require__(141);
 exports.race = race_1.race;
-var reduce_1 = __webpack_require__(31);
+var reduce_1 = __webpack_require__(30);
 exports.reduce = reduce_1.reduce;
 var repeat_1 = __webpack_require__(142);
 exports.repeat = repeat_1.repeat;
@@ -48922,234 +48902,9 @@ exports.push([module.i, ".componentContainer{\n    background-color: black;\n   
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppStore; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(21);
-// import { createStore } from 'redux';
-
-// import io from 'socket.io-client';
-// import todos from './reducers';
-// import testComponents from './reducers';
-
-// import {addTodo, toggleTodo, addTestComponent, toggleTestComponent, initialItems, setVisibilityFilter, VisibilityFilters} from './actions';
-// import * as eventBus from "./helpers/event-bus";
-//
-//
-let AppStore = class AppStore extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
-  // class AppStore extends Component{
-  constructor(props) {
-    super(props);
-    //let store = this.store = this.props.store;
-    console.log('***AppStore***==>this.props:', this.props);
-    // console.log('***AppStore***==>store:', store);
-    // console.log('***AppStore***==>store:', store.getState());
-    //this.store = store;
-    // const store = this.store = createStore(todos)
-    //const store = createStore(testComponents);
-
-    const unsubscribe = this.props.subscribe(() => {
-      console.log('AppStore::==>props.state:', props.getState());
-    });
-    console.log('state:', props.getState());
-    // Dispatch some actions
-    // store.dispatch(addTodo('Learn about actions'));
-    // store.dispatch(addTodo('Learn about reducers'));
-    // store.dispatch(addTodo('Learn about store'));
-    //
-    // store.dispatch(addTestComponent(0,0));
-    // store.dispatch(addTestComponent(0,0));
-    // store.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_ALL));
-    // mapStateToProps.bind(this);
-
-    // this.props.dispatch(addTodo('Learn about actions'));
-    // this.props.dispatch(addTodo('Learn about reducers'));
-    // this.props.dispatch(addTodo('Learn about store'));
-    //
-    // this.props.dispatch(addTestComponent(0,0));
-    // this.props.dispatch(addTestComponent(0,0));
-    // this.props.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_ALL));
-    // Stop listening to state updates
-
-    // this.setupSocket();
-    // unsubscribe();
-
-    // setTimeout(()=>{
-    //   this.setupReduxStore();
-    // },100)
-  }
-
-  // setupReduxStore(){
-  //   console.log('AppStore::setupReduxStore()==starting');
-  //   this.props.dispatch(addTodo('Learn about actions'));
-  //   this.props.dispatch(addTodo('Learn about reducers'));
-  //   this.props.dispatch(addTodo('Learn about store'));
-  //
-  //   let currentId = 0;
-  //   this.props.dispatch(addTestComponent(currentId++,0,0));
-  //   this.props.dispatch(addTestComponent(currentId++,0,0));
-  //   this.props.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_ALL));
-  //   console.log('AppStore::setupReduxStore()==done');
-  // }
-
-  setupSocket() {
-    console.log('AppStore::setupSocket()');
-    var socket;
-    console.log('AppModel');
-    socket = io('http://localhost:3000');
-
-    // eventBus.init();
-    // eventBus.addListener(this);
-    socket.on('connect', function () {
-      console.log('AppModel::socket connected');
-
-      //eventBus.triggerEvent('socket-connected',{eventName:'socket:connected'})
-      // eventBus.triggerEvent({name:'socket:connected'})
-      // let loadInitialDataSocket = (socket) => {
-      //   return (dispatch) => {
-      //     // dispatch(clearAllItems())
-      //     socket.on('config',(res)=>{
-      //       //console.dir(res)
-      //       console.log('AppStore::got config==>res:', res);
-      //       dispatch(initialItems(res))
-      //     })
-      //   }
-      // }
-      // loadInitialDataSocket(socket);
-    });
-
-    socket.on('config', res => {
-      //console.dir(res)
-      // const initialItems = (res) => ({
-      //   type: "INITIAL_ITEMS",
-      //   items: res
-      // });
-      console.log('AppStore::got config==>this.props:', this.props);
-      console.log('AppStore::got config==>res:', res);
-      res.forEach(item => {
-        this.store.dispatch(addTestComponent(item.id, item.valueA, item.valueB));
-      });
-
-      //this.store.dispatch(initialItems(res));
-
-
-      this.store.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_ALL));
-      console.log('AppStore::==>after dispatching INITIAL_ITEMS, this.store.state:', this.store.getState());
-      // let dispatcher = (dispatch)=>{
-      //   console.log('calling dispatch for initial items');
-      //   dispatch(initialItems(res))
-      // }
-      // dispatcher(res);
-    });
-
-    // socket.on('config', function(data){
-    //   console.log('>>>>>>>>got config on socket==>data:',data);
-    //   this.config = data;
-    //   let updateObj = {};
-    //   data.forEach((datum)=>{
-    //     updateObj[datum.id]=datum;
-    //     return (dispatch) => {
-    //       // dispatch(clearAllItems())
-    //       socket.on('initialList',(res)=>{
-    //         console.dir(res)
-    //         dispatch(initialItems(res))
-    //       })
-    //     }
-    //
-    //   });
-    //   //eventBus.triggerEvent({name:'config',data:updateObj});
-    // })
-
-    socket.on('msg', function (data) {
-      //console.log('got msg on socket==>data:',data);
-      //eventBus.triggerEvent({name:'msg',data});
-    });
-  }
-  // Every time the state changes, log it
-  // Note that subscribe() returns a function for unregistering the listener
-
-};
-
-// const mapStateToProps = (state = {}) => {
-//   // console.dir(state)
-//   //return {...state};
-//   //return state;
-//   testComponents: state.testComponents
-// };
-//
-//
-//
-//
-//
-//
-// const AppStore = ({ dispatch }) => {
-//
-//   //const store = createStore(testComponents);
-//
-//   // const unsubscribe = store.subscribe(() => {
-//   //   console.log('AppStore::==>store.state:', store.getState())
-//   // })
-//
-//   // const mapStateToProps = state => ({
-//   //   testComponents: getVisibleTestComponents(state.testComponents, state.visibilityFilter)
-//   // })
-//   //
-//   // const mapDispatchToProps = dispatch => ({
-//   //   toggleTestComponent: id => dispatch(toggleTestComponent(id))
-//   // })
-//   console.log('***AppStore***');
-//   //console.log(store.getState())
-//   // Dispatch some actions
-//   dispatch(addTodo('Learn about actions'));
-//   dispatch(addTodo('Learn about reducers'));
-//   dispatch(addTodo('Learn about store'));
-//
-//   dispatch(addTestComponent(0,0));
-//   dispatch(addTestComponent(0,0));
-//   // store.dispatch(toggleTodo(0));
-//   // store.dispatch(toggleTodo(1));
-//   dispatch(setVisibilityFilter(VisibilityFilters.SHOW_ALL));
-//
-// }
-//
-// export default connect(mapStateToProps)(AppStore)
-
-
-// import React from 'react'
-// import { connect } from 'react-redux'
-// import {addTestComponent, addTodo, toggleTestComponent} from './actions'
-// import App from './App';
-//
-// const AppStore = ({ dispatch }) => {
-//   let input
-//   function init(){
-//     console.log('AppStore::init()==>dispatching ADD_TESTCOMPONENT');
-//     dispatch(addTestComponent(input.value,0,0))
-//   }
-//   init();
-// }
-
-// const mapStateToProps = state => ({
-//   store: this.state.store,
-//   testComponents: getVisibleTestComponents(state,state.testComponents, state.visibilityFilter)
-// })
-//
-// const mapDispatchToProps = dispatch => ({
-//   toggleTestComponent: id => dispatch(toggleTestComponent(id))
-// })
-//
-// export default connect(mapStateToProps,mapDispatchToProps)(App);
-
-
-
-/***/ }),
-/* 532 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__testComponents__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__visibilityFilter__ = __webpack_require__(533);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__visibilityFilter__ = __webpack_require__(532);
 
 
 
@@ -49160,7 +48915,7 @@ let AppStore = class AppStore extends __WEBPACK_IMPORTED_MODULE_0_react__["Compo
 }));
 
 /***/ }),
-/* 533 */
+/* 532 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

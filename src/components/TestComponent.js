@@ -19,28 +19,29 @@ export default class TestComponent extends Component {
     }
 
     componentDidMount(){
-        this.setState({id:this.props.id,valueA:this.props.valueA,valueB:this.props.valueB, status: this.props.status});
+      this.setState({id:this.props.id,valueA:this.props.valueA,valueB:this.props.valueB, status: this.props.status});
     }
 
     render(){
-        let combinedClassName = '';
-        if(this.state.updated){
-            if(this.state.status==='error'){
-                combinedClassName = 'testComponent backgroundRed'
-            }else if(this.state.status==='warning'){
-                combinedClassName = 'testComponent backgroundYellow'
-            }else if(this.state.status==='info'){
-                combinedClassName = 'testComponent backgroundGreen'
-            }
-
-        }else{
-            combinedClassName = 'testComponent backgroundBlue'
+      // console.log('TestComponent::render()');
+      let combinedClassName = '';
+      if(this.state.updated){
+        if(this.state.status==='error'){
+          combinedClassName = 'testComponent backgroundRed'
+        }else if(this.state.status==='warning'){
+          combinedClassName = 'testComponent backgroundYellow'
+        }else if(this.state.status==='info'){
+          combinedClassName = 'testComponent backgroundGreen'
         }
-        return (
-            <div className={combinedClassName}>
-                <span>{'valueA:'+this.state.valueA}</span>
-                <span>{'valueB:'+this.state.valueB}</span>
-            </div>
-        );
+
+      }else{
+        combinedClassName = 'testComponent backgroundBlue'
+      }
+      return (
+        <div className={combinedClassName}>
+          <span>{'valueA:'+this.state.valueA}</span>
+          <span>{'valueB:'+this.state.valueB}</span>
+        </div>
+      );
     }
 }
